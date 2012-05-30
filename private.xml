@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<root>
+    <appdef>
+        <appname>Finder</appname>
+        <equal>com.apple.finder</equal>
+    </appdef>
+    <item>
+        <name> umiyosh:alt custom DELETE </name>
+        <identifier>private.umiyosh_delete</identifier>
+        <autogen>--KeyToKey-- KeyCode::JIS_ATMARK , ModifierFlag::OPTION_L , KeyCode::DELETE </autogen>
+    </item>
+    <item>
+        <name> umiyosh:alt custom PAGEUP </name>
+        <identifier>private.umiyosh_pageup</identifier>
+        <autogen>--KeyToKey-- KeyCode::SEMICOLON , ModifierFlag::OPTION_L , KeyCode::PAGEUP </autogen>
+    </item>
+    <item>
+        <name> umiyosh:alt custom PAGEDOWN </name>
+        <identifier>private.umiyosh_pagedown</identifier>
+        <autogen>--KeyToKey-- KeyCode::SLASH , ModifierFlag::OPTION_L , KeyCode::PAGEDOWN </autogen>
+    </item>
+    <item>
+        <name> umiyosh:caps custom CAPS </name>
+        <identifier>private.umiyosh_caps</identifier>
+        <autogen>--KeyToKey-- KeyCode::F1, ModifierFlag::SHIFT_L , KeyCode::CAPSLOCK </autogen>
+    </item>
+    <item>
+        <name> umiyosh:RETURN alias </name>
+        <identifier>private.umiyosh_Returnalias</identifier>
+        <autogen>--KeyToKey-- KeyCode::SEMICOLON, ModifierFlag::SHIFT_L     , KeyCode::KEYPAD_PLUS </autogen>
+        <autogen>--KeyToKey-- KeyCode::SEMICOLON, ModifierFlag::SHIFT_R     , KeyCode::KEYPAD_PLUS </autogen>
+        <autogen>--KeyToKey-- KeyCode::SEMICOLON, ModifierFlag::CONTROL_L   , KeyCode::SEMICOLON </autogen>
+        <autogen>--KeyToKey-- KeyCode::SEMICOLON, KeyCode::RETURN </autogen>
+    </item>
+    <list>
+        <appdef>
+            <appname>Excel</appname>
+            <equal>com.microsoft.Excel</equal>
+        </appdef>
+        <item>
+          <name>Excel home/end custom</name>
+          <identifier>private.umiyosh_Excel_custom</identifier>
+          <only>Excel</only>
+          <autogen>--KeyToKey-- KeyCode::COMMA, ModifierFlag::OPTION_L, KeyCode::HOME </autogen>
+          <autogen>--KeyToKey-- KeyCode::DOT  , ModifierFlag::OPTION_L, KeyCode::END </autogen>
+          <autogen>--KeyToKey-- KeyCode::F2   , KeyCode::U            , ModifierFlag::CONTROL_L </autogen>
+        </item>
+    </list>
+    <item>
+        <name> umiyosh:alt custom HOME/END </name>
+        <identifier>private.umiyosh_HOME_END</identifier>
+        <autogen>--KeyToKey-- KeyCode::COMMA, ModifierFlag::CONTROL_L|ModifierFlag::OPTION_L, KeyCode::HOME </autogen>
+        <autogen>--KeyToKey-- KeyCode::DOT  , ModifierFlag::CONTROL_L|ModifierFlag::OPTION_L, KeyCode::END </autogen>
+        <autogen>--KeyToKey-- KeyCode::COMMA, ModifierFlag::OPTION_L                        , KeyCode::A              , ModifierFlag::CONTROL_L </autogen>
+        <autogen>--KeyToKey-- KeyCode::DOT  , ModifierFlag::OPTION_L                        , KeyCode::E              , ModifierFlag::CONTROL_L </autogen>
+    </item>
+    <item>
+        <name> umiyosh:Finder custom</name>
+        <identifier>private.umiyosh_Finder_tabchange</identifier>
+        <only>Finder</only>
+        <autogen>--KeyToKey-- KeyCode::JIS_BRACKET_RIGHT, ModifierFlag::COMMAND_L|ModifierFlag::SHIFT_L, KeyCode::TAB, ModifierFlag::CONTROL_L </autogen>
+        <autogen>--KeyToKey-- KeyCode::JIS_BRACKET_LEFT , ModifierFlag::COMMAND_L|ModifierFlag::SHIFT_L, KeyCode::TAB, ModifierFlag::CONTROL_L|ModifierFlag::SHIFT_L </autogen>
+    </item>
+    <list>
+        <appdef>
+            <appname>iterm2</appname>
+            <equal>com.googlecode.iterm2</equal>
+        </appdef>
+        <item>
+          <name>LeaveInsMode with EISUU(Terminal)</name>
+          <identifier>private.app_terminal_esc_with_eisuu</identifier>
+          <only>iterm2</only>
+          <autogen>--KeyToKey-- KeyCode::JIS_BRACKET_RIGHT, ModifierFlag::CONTROL_L, KeyCode::ESCAPE             , KeyCode::JIS_EISUU  </autogen>
+          <autogen>--KeyToKey-- KeyCode::ESCAPE           , KeyCode::ESCAPE        , KeyCode::JIS_EISUU</autogen>
+          <autogen>--KeyToKey-- KeyCode::C                , VK_CONTROL             , KeyCode::C                  , VK_CONTROL                    , KeyCode::JIS_EISUU</autogen>
+        </item>
+    </list>
+</root>
