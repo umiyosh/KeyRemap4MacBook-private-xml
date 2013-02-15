@@ -4,6 +4,10 @@
         <appname>Finder</appname>
         <equal>com.apple.finder</equal>
     </appdef>
+    <appdef>
+        <appname>Chrome</appname>
+        <equal>com.google.Chrome</equal>
+    </appdef>
     <item>
         <name> umiyosh:alt custom DELETE </name>
         <identifier>private.umiyosh_delete</identifier>
@@ -61,6 +65,14 @@
         <autogen>--KeyToKey-- KeyCode::JIS_BRACKET_RIGHT, ModifierFlag::COMMAND_L|ModifierFlag::SHIFT_L, KeyCode::TAB, ModifierFlag::CONTROL_L </autogen>
         <autogen>--KeyToKey-- KeyCode::JIS_BRACKET_LEFT , ModifierFlag::COMMAND_L|ModifierFlag::SHIFT_L, KeyCode::TAB, ModifierFlag::CONTROL_L|ModifierFlag::SHIFT_L </autogen>
     </item>
+    <list>
+        <item>
+          <name>umiyosh:Crhome custom</name>
+          <identifier>private.umiyosh:Crhome_custom</identifier>
+          <only>Chrome</only>
+          <autogen>--KeyToKey-- KeyCode::COMMA, KeyCode::JIS_EISUU , KeyCode::COMMA  </autogen>
+        </item>
+    </list>
     <list>
         <appdef>
             <appname>iterm2</appname>
