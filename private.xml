@@ -74,15 +74,10 @@
         </item>
     </list>
     <list>
-        <appdef>
-            <appname>iterm2</appname>
-            <equal>com.googlecode.iterm2</equal>
-        </appdef>
         <item>
           <name>LeaveInsMode with EISUU(Terminal)</name>
           <identifier>private.app_terminal_esc_with_eisuu</identifier>
-          <only>iterm2</only>
-          <autogen>--KeyToKey-- KeyCode::JIS_BRACKET_RIGHT, ModifierFlag::CONTROL_L, KeyCode::ESCAPE             , KeyCode::JIS_EISUU  </autogen>
+          <autogen>--KeyToKey-- KeyCode::JIS_BRACKET_LEFT , ModifierFlag::CONTROL_L, KeyCode::ESCAPE             , KeyCode::JIS_EISUU  </autogen>
           <autogen>--KeyToKey-- KeyCode::ESCAPE           , KeyCode::ESCAPE        , KeyCode::JIS_EISUU</autogen>
           <autogen>--KeyToKey-- KeyCode::C                , VK_CONTROL             , KeyCode::C                  , VK_CONTROL                    , KeyCode::JIS_EISUU</autogen>
         </item>
