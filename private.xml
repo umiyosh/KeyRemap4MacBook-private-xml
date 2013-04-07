@@ -86,7 +86,7 @@
         <item>
           <name>restain minimize window</name>
           <identifier>private.restain_minimize_window</identifier>
-          <autogen>--KeyToKey-- ModifierFlag::COMMAND_L , KeyCode::M, KeyCode::JIS_EISUU  </autogen>
+          <autogen>--KeyToKey-- KeyCode::M, ModifierFlag::COMMAND_L , KeyCode::JIS_EISUU  </autogen>
         </item>
     </list>
 </root>
