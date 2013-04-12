@@ -72,6 +72,12 @@
           <only>Chrome</only>
           <autogen>--KeyToKey-- KeyCode::COMMA, KeyCode::JIS_EISUU , KeyCode::COMMA  </autogen>
         </item>
+        <item>
+          <name>umiyosh:activate command + m</name>
+          <identifier>private.umiyosh:Crhome_custom:m</identifier>
+          <only>Chrome</only>
+          <autogen>--KeyToKey-- KeyCode::M, ModifierFlag::COMMAND_L, KeyCode::M , ModifierFlag::COMMAND_L  </autogen>
+        </item>
     </list>
     <list>
         <item>
