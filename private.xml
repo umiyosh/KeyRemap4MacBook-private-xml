@@ -31,8 +31,7 @@
     <item>
         <name> umiyosh:RETURN alias </name>
         <identifier>private.umiyosh_Returnalias</identifier>
-        <autogen>--KeyToKey-- KeyCode::SEMICOLON, ModifierFlag::SHIFT_L     , KeyCode::KEYPAD_PLUS </autogen>
-        <autogen>--KeyToKey-- KeyCode::SEMICOLON, ModifierFlag::SHIFT_R     , KeyCode::KEYPAD_PLUS </autogen>
+        <autogen>--KeyToKey-- KeyCode::SEMICOLON, VK_SHIFT, KeyCode::SEMICOLON, VK_SHIFT</autogen>
         <autogen>--KeyToKey-- KeyCode::SEMICOLON, ModifierFlag::CONTROL_L   , KeyCode::SEMICOLON </autogen>
         <autogen>--KeyToKey-- KeyCode::SEMICOLON, KeyCode::RETURN </autogen>
     </item>
